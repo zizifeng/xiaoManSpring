@@ -7,7 +7,7 @@ import com.maroon.spring.XiaoManApplicationContext;
  */
 public class Test {
     public static void main(String[] args) {
-        //1.创建一个Spring容器实例对象，一般传入一个配置文件(xx.xml)或者配置类，这里传入一个配置类。
+        //1.创建一个Spring容器实例对象，一般传入一个配置文件(xx.xml)或者配置类，这里传入一个配置类。aaa
         //2.Spring容器根据传入的配置类去扫描对应的文件
         XiaoManApplicationContext applicationContext =new XiaoManApplicationContext(AppConfig.class);
       //  Object userService = context.getBean("userService");
